@@ -1,0 +1,19 @@
+
+1. Section ( h5 - Lato Bold - 16px - nav )
+	   ( h1 - /Lato/ Bold - ____ - hero title 1)
+	   ( h2 - /Lato/ Bold - ____ - hero title 2)
+	   ( h6 - Lato Bold - 14px - button )
+
+2. Section ( h5 - Lato Bold - 16px - fiter )
+	   ( h3 - _________ - ____ - forrest app )
+
+3. Section ( h3 - _________ - ____ - michel dupont )
+	   ( h4 - _________ - ____ - web designer )
+	   ( p  - Lato Reg. - 16px - Lorem )
+ 	   ( h6 - Lato Bold - 14px - button )
+
+4. Section ( /h3/ - BigJohn reg. - 26px - me contacter )
+	   ( h5 - Lato Bold - 16px - votre nom )
+	   ( h6 - Lato Bold - 14px - button )
+
+5. Section ( h5 - /Lato Bold/ - 16px - copyrigts )

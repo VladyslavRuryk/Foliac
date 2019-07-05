@@ -1,0 +1,417 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  header{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/header/Rectangle 1.png") center no-repeat;
+    background-size: cover;
+
+
+    .nav{
+      width: 100%;
+      height: 25%;
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: row;
+
+      .logo{
+        height: 100%;
+        width: 50%;
+        background: url("../img/header/logo.png") center no-repeat;
+      }
+      .menu{
+        width: 50%;
+        height: 100%;
+
+        ul{
+          padding: 0;
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          margin: 0;
+          height: 100%;
+          width: 70%;
+
+          li{
+
+            a{
+              text-decoration: none;
+              color: #ffffff;
+
+              h5{
+                text-transform: capitalize;
+                height: 40px;
+                line-height: 40px;
+
+                &:hover{
+                  border-bottom: 3px solid #48BF72;
+                  color: #ffffff;
+                  opacity: 0.7;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .title{
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: 0;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      text-align: center;
+
+      .title__text{
+        line-height: 1.5;
+
+        h2{
+          opacity: 0.5;
+        }
+      }
+      .title__button{
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        top: 65%;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+
+        button{
+          text-transform: uppercase;
+          height: 100%;
+          width: 100%;
+          border: 2px solid #48BF72;
+          background: inherit;
+          color: #48BF72;
+          outline: none;
+
+          &:hover{
+            background: #48BF72;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+  main{
+    .portfolio{
+      width: 100%;
+      height: 100vh;
+      background: #ffffff;
+
+      .filtres{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        button{
+          background: #EAEAEA;
+          margin: 10px;
+          outline: none;
+          width: 140px;
+          height: 35px;
+          border: none;
+          color: #000000;
+          text-transform: capitalize;
+
+          &:hover{
+            background: #48BF72;
+            color: #ffffff;
+          }
+        }
+      }
+      .items{
+        width: 100%;
+        height: 85%;
+
+        .items__box{
+          width: 60%;
+          height: 100%;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: row;
+
+          .box__1-2{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            margin: 5px;
+
+            .box-1{
+              background: url("../img/portfolio/multiple items.png") center no-repeat;
+              background-size: cover;
+              border-radius: 10px;
+              width: 100%;
+              height: 30%;
+              margin: 5px;
+            }
+            .box-2{
+              background: url("../img/portfolio/app.png") center no-repeat;
+              background-size: cover;
+              border-radius: 10px;
+              width: 100%;
+              height: 60%;
+              margin: 5px;
+            }
+          }
+          .box__3-4{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            margin: 5px;
+
+            .box-3{
+              background: url("../img/portfolio/identité visuelle.png") center no-repeat;
+              background-size: cover;
+              border-radius: 10px;
+              width: 100%;
+              height: 60%;
+              margin: 5px;
+            }
+            .box-4{
+              background: url("../img/portfolio/prototype.png") center no-repeat;
+              background-size: cover;
+              border-radius: 10px;
+              width: 100%;
+              height: 30%;
+              margin: 5px;
+            }
+          }
+        }
+      }
+    }
+    .about{
+      width: 100%;
+      height: 50vh;
+      background: url("../img/about/men-computer.png") top center no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .conteiner{
+        width: 50%;
+        height: 82%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #ffffff;
+
+        .title{
+          text-transform: capitalize;
+          line-height: 1.5;
+        }
+        .text{
+          line-height: 1.5;
+
+        }
+        .button-conteiner{
+
+          button {
+            color: #3C4955;
+            border: 2px solid #3C4955;
+            background: inherit;
+            outline: none;
+            height: 40px;
+            width: 150px;
+            text-transform: uppercase;
+
+            &:hover{
+              background: #3C4955;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+    .contact{
+      width: 100%;
+      height: 50vh;
+
+      .title{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h3{
+          font-family: 'big_john_probold', sans-serif;
+          text-transform: uppercase;
+          color: #48BF72;
+        }
+      }
+      .form-contact {
+        width: 40%;
+        height: 80%;
+        margin: 0 auto;
+
+        form {
+          width: 539px;
+          height: 100%;
+          margin: 0 auto;
+
+          input {
+            width: 257px;
+            height: 50px;
+            padding: 0;
+            outline: none;
+          }
+          .nom {
+            margin: 0 10px 10px 0;
+          }
+          .email {
+            margin: 0 0 10px 10px;
+          }
+          .message {
+            width: 538px;
+            height: 104px;
+            margin: 10px 0;
+            padding: 0;
+          }
+          button {
+            height: 50px;
+            width: 538px;
+            margin: 10px 0;
+            color: #ffffff;
+            background-color: #48BF72;
+            text-transform: uppercase;
+            outline: none;
+            border: none;
+            letter-spacing: 3px;
+
+            &:hover {
+              border: 2px solid #48BF72;
+              background: #ffffff;
+              color: #48BF72;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #3C4955;
+
+    .copyrights{
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      p{
+        color: #ffffff;
+      }
+    }
+    .social{
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .social__icons{
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+
+
+        .twitter{
+          width: 50px;
+          height: 50px;
+          background: url("../img/footer/twitter.png") center no-repeat;
+          background-size: contain;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .twitter-icon{
+            width: 25px;
+            height: 25px;
+            background: url("../img/footer/twitter-icon.svg") center no-repeat;
+            background-size: contain;
+          }
+        }
+        .linkedin{
+          width: 50px;
+          height: 50px;
+          background: url("../img/footer/linkedin.png") center no-repeat;
+          background-size: contain;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .linkedin-icon{
+            width: 25px;
+            height: 25px;
+            background: url("../img/footer/linkedin-icon.svg") center no-repeat;
+            background-size: contain;
+          }
+        }
+        .dribbble{
+          width: 50px;
+          height: 50px;
+          background: url("../img/footer/dribbble.png") center no-repeat;
+          background-size: contain;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .dribbble-icon{
+            width: 25px;
+            height: 25px;
+            background: url("../img/footer/dribbble-icon.svg") center no-repeat;
+            background-size: contain;
+          }
+        }
+        .behance{
+          width: 50px;
+          height: 50px;
+          background: url("../img/footer/behance.png") center no-repeat;
+          background-size: contain;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .behance-icon{
+            width: 25px;
+            height: 25px;
+            background: url("../img/footer/behance-icon.svg") center no-repeat;
+            background-size: contain;
+          }
+        }
+      }
+    }
+  }
+}
