@@ -1,0 +1,317 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0; }
+  body header {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/header/Rectangle 1.png") center no-repeat;
+    background-size: cover; }
+    body header .nav {
+      width: 100%;
+      height: 25%;
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: row; }
+      body header .nav .logo {
+        height: 100%;
+        width: 50%;
+        background: url("../img/header/logo.png") center no-repeat; }
+      body header .nav .menu {
+        width: 50%;
+        height: 100%; }
+        body header .nav .menu ul {
+          padding: 0;
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          margin: 0;
+          height: 100%;
+          width: 70%; }
+          body header .nav .menu ul li a {
+            text-decoration: none;
+            color: #ffffff; }
+            body header .nav .menu ul li a h5 {
+              text-transform: capitalize;
+              height: 40px;
+              line-height: 40px; }
+              body header .nav .menu ul li a h5:hover {
+                border-bottom: 3px solid #48BF72;
+                color: #ffffff;
+                opacity: 0.7; }
+    body header .title {
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: 0;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      text-align: center; }
+      body header .title .title__text {
+        line-height: 1.5; }
+        body header .title .title__text h2 {
+          opacity: 0.5; }
+      body header .title .title__button {
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        top: 65%;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: 0 auto; }
+        body header .title .title__button button {
+          text-transform: uppercase;
+          height: 100%;
+          width: 100%;
+          border: 2px solid #48BF72;
+          background: inherit;
+          color: #48BF72;
+          outline: none; }
+          body header .title .title__button button:hover {
+            background: #48BF72;
+            color: #ffffff; }
+  body main .portfolio {
+    width: 100%;
+    height: 100vh;
+    background: #ffffff; }
+    body main .portfolio .filtres {
+      width: 100%;
+      height: 15%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      body main .portfolio .filtres button {
+        background: #EAEAEA;
+        margin: 10px;
+        outline: none;
+        width: 140px;
+        height: 35px;
+        border: none;
+        color: #000000;
+        text-transform: capitalize; }
+        body main .portfolio .filtres button:hover {
+          background: #48BF72;
+          color: #ffffff; }
+    body main .portfolio .items {
+      width: 100%;
+      height: 85%; }
+      body main .portfolio .items .items__box {
+        width: 60%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row; }
+        body main .portfolio .items .items__box .box__1-2 {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+          margin: 5px; }
+          body main .portfolio .items .items__box .box__1-2 .box-1 {
+            background: url("../img/portfolio/multiple items.png") center no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+            width: 100%;
+            height: 30%;
+            margin: 5px; }
+          body main .portfolio .items .items__box .box__1-2 .box-2 {
+            background: url("../img/portfolio/app.png") center no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+            width: 100%;
+            height: 60%;
+            margin: 5px; }
+        body main .portfolio .items .items__box .box__3-4 {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+          margin: 5px; }
+          body main .portfolio .items .items__box .box__3-4 .box-3 {
+            background: url("../img/portfolio/identité visuelle.png") center no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+            width: 100%;
+            height: 60%;
+            margin: 5px; }
+          body main .portfolio .items .items__box .box__3-4 .box-4 {
+            background: url("../img/portfolio/prototype.png") center no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+            width: 100%;
+            height: 30%;
+            margin: 5px; }
+  body main .about {
+    width: 100%;
+    height: 50vh;
+    background: url("../img/about/men-computer.png") top center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+    body main .about .conteiner {
+      width: 50%;
+      height: 82%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      color: #ffffff; }
+      body main .about .conteiner .title {
+        text-transform: capitalize;
+        line-height: 1.5; }
+      body main .about .conteiner .text {
+        line-height: 1.5; }
+      body main .about .conteiner .button-conteiner button {
+        color: #3C4955;
+        border: 2px solid #3C4955;
+        background: inherit;
+        outline: none;
+        height: 40px;
+        width: 150px;
+        text-transform: uppercase; }
+        body main .about .conteiner .button-conteiner button:hover {
+          background: #3C4955;
+          color: #ffffff; }
+  body main .contact {
+    width: 100%;
+    height: 50vh; }
+    body main .contact .title {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body main .contact .title h3 {
+        font-family: 'big_john_probold', sans-serif;
+        text-transform: uppercase;
+        color: #48BF72; }
+    body main .contact .form-contact {
+      width: 40%;
+      height: 80%;
+      margin: 0 auto; }
+      body main .contact .form-contact form {
+        width: 539px;
+        height: 100%;
+        margin: 0 auto; }
+        body main .contact .form-contact form input {
+          width: 257px;
+          height: 50px;
+          padding: 0;
+          outline: none; }
+        body main .contact .form-contact form .nom {
+          margin: 0 10px 10px 0; }
+        body main .contact .form-contact form .email {
+          margin: 0 0 10px 10px; }
+        body main .contact .form-contact form .message {
+          width: 538px;
+          height: 104px;
+          margin: 10px 0;
+          padding: 0; }
+        body main .contact .form-contact form button {
+          height: 50px;
+          width: 538px;
+          margin: 10px 0;
+          color: #ffffff;
+          background-color: #48BF72;
+          text-transform: uppercase;
+          outline: none;
+          border: none;
+          letter-spacing: 3px; }
+          body main .contact .form-contact form button:hover {
+            border: 2px solid #48BF72;
+            background: #ffffff;
+            color: #48BF72; }
+  body footer {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #3C4955; }
+    body footer .copyrights {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body footer .copyrights p {
+        color: #ffffff; }
+    body footer .social {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      body footer .social .social__icons {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; }
+        body footer .social .social__icons .twitter {
+          width: 50px;
+          height: 50px;
+          background: url("../img/footer/twitter.png") center no-repeat;
+          background-size: contain;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body footer .social .social__icons .twitter .twitter-icon {
+            width: 25px;
+            height: 25px;
+            background: url("../img/footer/twitter-icon.svg") center no-repeat;
+            background-size: contain; }
+        body footer .social .social__icons .linkedin {
+          width: 50px;
+          height: 50px;
+          background: url("../img/footer/linkedin.png") center no-repeat;
+          background-size: contain;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body footer .social .social__icons .linkedin .linkedin-icon {
+            width: 25px;
+            height: 25px;
+            background: url("../img/footer/linkedin-icon.svg") center no-repeat;
+            background-size: contain; }
+        body footer .social .social__icons .dribbble {
+          width: 50px;
+          height: 50px;
+          background: url("../img/footer/dribbble.png") center no-repeat;
+          background-size: contain;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body footer .social .social__icons .dribbble .dribbble-icon {
+            width: 25px;
+            height: 25px;
+            background: url("../img/footer/dribbble-icon.svg") center no-repeat;
+            background-size: contain; }
+        body footer .social .social__icons .behance {
+          width: 50px;
+          height: 50px;
+          background: url("../img/footer/behance.png") center no-repeat;
+          background-size: contain;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          body footer .social .social__icons .behance .behance-icon {
+            width: 25px;
+            height: 25px;
+            background: url("../img/footer/behance-icon.svg") center no-repeat;
+            background-size: contain; }
+
+/*# sourceMappingURL=styles.css.map */
